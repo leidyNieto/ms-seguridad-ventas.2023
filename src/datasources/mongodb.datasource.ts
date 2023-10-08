@@ -1,3 +1,4 @@
+//conexión con la base de datos por lb4 datasources, se elije la base de datos a usar (relacional o no relacional)
 import {inject, lifeCycleObserver, LifeCycleObserver} from '@loopback/core';
 import {juggler} from '@loopback/repository';
 
