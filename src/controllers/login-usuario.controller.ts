@@ -1,10 +1,11 @@
+//controlador de la relación entre login y usuario
 import {
   repository,
 } from '@loopback/repository';
 import {
-  param,
   get,
   getModelSchemaRef,
+  param,
 } from '@loopback/rest';
 import {
   Login,
