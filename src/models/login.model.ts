@@ -1,4 +1,6 @@
-import {Entity, model, property, belongsTo} from '@loopback/repository';
+//modelo de login con sus respectivos atributos y relaciones
+
+import {Entity, belongsTo, model, property} from '@loopback/repository';
 import {Usuario} from './usuario.model';
 
 @model()

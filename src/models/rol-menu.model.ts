@@ -1,3 +1,4 @@
+// modelo de rol-menu con sus respectivos atributos y relaciones
 import {Entity, model, property} from '@loopback/repository';
 
 @model()

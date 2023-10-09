@@ -1,6 +1,7 @@
-import {Entity, model, property, hasMany} from '@loopback/repository';
-import {Rol} from './rol.model';
+// modelo de menu con sus respectivos atributos y relaciones
+import {Entity, hasMany, model, property} from '@loopback/repository';
 import {RolMenu} from './rol-menu.model';
+import {Rol} from './rol.model';
 
 @model()
 export class Menu extends Entity {
