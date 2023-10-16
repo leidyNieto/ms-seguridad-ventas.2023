@@ -26,9 +26,8 @@ export class Login extends Entity {
 
   @property({
     type: 'string',
-    required: true,
   })
-  token: string;
+  token?: string;
 
   @property({
     type: 'boolean',
